@@ -187,7 +187,7 @@ function enemyHitsPlayer (player,bullet) {
         player.kill();
         enemyBullets.callAll('kill');
 
-        stateText.text=" GAME OVER! The humans will now suffer famine's wrath \n Click to restart";
+        stateText.text=" GAME OVER! The humans will now suffer famine's wrath \n Refresh to restart";
         stateText.visible = true;
     }
 
